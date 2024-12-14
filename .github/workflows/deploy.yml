@@ -37,5 +37,5 @@ jobs:
         uses: huggingface/hub-actions/push@main
         with:
           token: ${{ secrets.HF_TOKEN }}  # Access token for Hugging Face
-          repo_id: <your_username>/<your_space_name>  # Replace with your details
+          repo_id: nandini040601/Project_5502  # Your Space details
           branch: main  # The branch to deploy
